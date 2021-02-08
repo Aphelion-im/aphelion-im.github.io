@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --lightblue: #AEDCE9;
+  --darkerblue: #1891D0;
+  --width: 71px;
+  --height: 71px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.info {
+  width: 1000px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.grid {
+  align-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 8px;
+  width: 1000px;
+}
+
+.card {
+  border-radius: 4px;
+  font-weight: 700;
+  align-items: center;
+  border: 1px solid var(--darkerblue);
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  width: var(--width);
+  height: var(--height);
+}
+
+.btn_newGame {
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.feedback {
+  font-weight: 700;
+  color: red;
+  width: 900px;
+  margin: 8px auto 0 auto;
+  height: 16px;
+  text-align: center;
+}
