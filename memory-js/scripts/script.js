@@ -35,6 +35,7 @@ window.addEventListener("load", () => {
 
   function turnCard() {
     console.clear();
+    flips++;
     const dataId = this.getAttribute("data-id");
     const dataCard = this.getAttribute("data-card");
 
@@ -66,14 +67,14 @@ window.addEventListener("load", () => {
     } else if (choice1 == choice2) {
       cards[choiceId1].removeEventListener("click", turnCard);
       cards[choiceId2].removeEventListener("click", turnCard);
-      cards[choiceId1].style.cursor = "default";
-      cards[choiceId2].style.cursor = "default";
+      cards[choiceId1].style.cursor = "not-allowed";
+      cards[choiceId2].style.cursor = "not-allowed";
       winningArray.push(choice1);
       winningArray.push(choice2);
       message = "Well done! Score +1!";
       displayFeedback(message);
     } else {
-      message = "Alas!";
+      message = "Alas! No matching cards.";
       displayFeedback(message);
       cards[choiceId1].setAttribute("src", "images/card-back-200x200-v2.png");
       cards[choiceId2].setAttribute("src", "images/card-back-200x200-v2.png");
@@ -83,6 +84,7 @@ window.addEventListener("load", () => {
       winner();
     }
 
+    flipsOutput.textContent = `Flips: ${flips}`;
     scoreOutput.textContent = `Score: ${winningArray.length / 2}`;
     chosenIds = [];
     chosenArray = [];
@@ -124,11 +126,23 @@ window.addEventListener("load", () => {
     }
   };
 
+const cardZ = document.querySelector(".cardZ");
+cardZ.addEventListener("click", () => {
+
+cardZ.classList.toggle("visible");
+
+});
+
+
+
 }); // End load eventlistener
 
 
-// Simple shuffle: 
+// Simple shuffle 1: 
 // for (let card of cards) {
 //   let num = Math.floor(Math.random() * cards.length);
 //   card.style.order = num;
 // }
+
+// Simple shuffle 2:
+// cardArray.sort(() => 0.5 - Math.random())

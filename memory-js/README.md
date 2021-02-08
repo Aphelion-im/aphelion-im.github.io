@@ -8,6 +8,33 @@
 * Fisher-Yates shuffle algorithm.
 * Flexbox: order. 
 
+## Shuffles
+<strong>Fisher-Yates shuffle algorithm</strong>
+
+```javascript
+    const cards = document.querySelectorAll(".card");
+    for (let i = cards.length - 1; i > 0; i--) {
+      let randIndex = Math.floor(Math.random() * (i + 1));
+      cards[randIndex].style.order = i;
+      cards[i].style.order = randIndex;
+    }
+```
+
+<strong>Simple shuffle 1</strong>
+
+```javascript
+    for (let card of cards) {
+    let num = Math.floor(Math.random() * cards.length);
+    card.style.order = num;
+    }
+```
+
+<strong>Simple shuffle 2</strong>
+
+```javascript
+cardArray.sort(() => 0.5 - Math.random());
+```
+
 
 ## Resources
 * https://github.com/WebDevSimplified/Mix-Or-Match
