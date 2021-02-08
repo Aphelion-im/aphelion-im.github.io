@@ -18,39 +18,59 @@ window.addEventListener("load", () => {
   btn_newGame.addEventListener("click", newGame);
   newGame();
 
-  // HTML template: 
-  // <img class="card" src="images/cards/card-front-apple-200x200.jpg" data-card="Apple" data-id="6" alt="Apple card">
+  // HTML template for createBoard(): 
+  /*
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="images/card-back-200x200-v2.png" alt="Card back">
+      </div>
+      <div class="card-front card-face">
+        <img src="images/cards/card-front-apple-200x200.jpg" data-card="Apple" data-id="6" alt="Apple card">
+      </div>
+    </div>
+  */
   function createBoard() {
     for (let i = 0; i < cardsArray.length; i++) {
-      const imageCard = document.createElement("img");
-      imageCard.setAttribute("class", "card");
-      imageCard.setAttribute("src", "images/card-back-200x200-v2.png"); // cardsArray[i].location
-      imageCard.setAttribute("data-card", cardsArray[i].name);
-      imageCard.setAttribute("data-id", cardsArray[i].id);
-      imageCard.setAttribute("alt", cardsArray[i].name + " Card");
-      imageCard.addEventListener("click", turnCard);
-      main.appendChild(imageCard);
+      const classCard = document.createElement("div");
+      classCard.setAttribute("class", "card");
+      classCard.addEventListener("click", turnCard);
+      main.appendChild(classCard);
+      const cardBack = document.createElement("div");
+      cardBack.setAttribute("class", "card-back card-face");
+      classCard.appendChild(cardBack);
+      const imageCardBack = document.createElement("img");
+      imageCardBack.setAttribute("src", "images/card-back-200x200-v2.png");
+      imageCardBack.setAttribute("alt", "Card back");
+      cardBack.appendChild(imageCardBack);
+      const cardFront = document.createElement("div");
+      cardFront.setAttribute("class", "card-front card-face");
+      classCard.appendChild(cardFront);
+      const imageCardFront = document.createElement("img");
+      imageCardFront.setAttribute("src", cardsArray[i].location);
+      imageCardFront.setAttribute("data-card", cardsArray[i].name);
+      imageCardFront.setAttribute("data-id", cardsArray[i].id);
+      imageCardFront.setAttribute("alt", cardsArray[i].name + " Card");
+      cardFront.appendChild(imageCardFront);
     }
   };
 
   function turnCard() {
     console.clear();
+    this.classList.add("visible");
     flips++;
-    const dataId = this.getAttribute("data-id");
-    const dataCard = this.getAttribute("data-card");
+    const dataId = this.lastElementChild.lastElementChild.getAttribute("data-id");
+    const dataCard = this.lastElementChild.lastElementChild.getAttribute("data-card");
 
     chosenIds.push(dataId);
     console.log("chosenIds Array: " + chosenIds);
     chosenArray.push(dataCard);
     console.log("chosenArray: " + chosenArray);
 
-    this.setAttribute("src", cardsArray[dataId].location);
 
     if (chosenArray.length === 2 && chosenIds.length === 2) {
       setTimeout(checkMatch, 1000);
-    } 
+    }
   };
-
 
   function checkMatch() {
     const cards = document.querySelectorAll(".card");
@@ -61,7 +81,7 @@ window.addEventListener("load", () => {
 
 
     if (choiceId1 == choiceId2) {
-      cards[choiceId1].setAttribute("src", "images/card-back-200x200-v2.png");
+      cards[choiceId1].classList.remove("visible");
       message = "You chose the same card!";
       displayFeedback(message);
     } else if (choice1 == choice2) {
@@ -76,8 +96,8 @@ window.addEventListener("load", () => {
     } else {
       message = "Alas! No matching cards.";
       displayFeedback(message);
-      cards[choiceId1].setAttribute("src", "images/card-back-200x200-v2.png");
-      cards[choiceId2].setAttribute("src", "images/card-back-200x200-v2.png");
+      cards[choiceId1].classList.remove("visible");
+      cards[choiceId2].classList.remove("visible");
     }
 
     if (winningArray.length / 2 == cardsArray.length / 2) {
@@ -105,6 +125,7 @@ window.addEventListener("load", () => {
 
   // Start a new game. Reset all stats and shuffle the cards.
   function newGame() {
+    console.clear();
     main.innerHTML = "";
     createBoard();
     shuffle();
@@ -126,23 +147,5 @@ window.addEventListener("load", () => {
     }
   };
 
-const cardZ = document.querySelector(".cardZ");
-cardZ.addEventListener("click", () => {
-
-cardZ.classList.toggle("visible");
-
-});
-
-
 
 }); // End load eventlistener
-
-
-// Simple shuffle 1: 
-// for (let card of cards) {
-//   let num = Math.floor(Math.random() * cards.length);
-//   card.style.order = num;
-// }
-
-// Simple shuffle 2:
-// cardArray.sort(() => 0.5 - Math.random())

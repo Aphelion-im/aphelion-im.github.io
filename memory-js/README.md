@@ -3,6 +3,7 @@
 * 72 cards (36 pairs)
 * :root {--blue: #AEDCE9; } --> background-color: var(--blue);
 * .firstElementChild(); (Similar to .firstChild());
+* .lastElementChild();
 * .gitignore
 * gitignored files and folder become greyed out in explorer.
 * Fisher-Yates shuffle algorithm.
