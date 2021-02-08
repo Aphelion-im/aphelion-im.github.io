@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
 
 :root {
   --lightblue: #AEDCE9;
   --darkerblue: #1891D0;
   --warning: #F4C925;
-  --width: 71px;
+  --width: 71px; 
   --height: 71px;
 }
 

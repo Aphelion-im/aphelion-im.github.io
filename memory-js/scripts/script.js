@@ -12,6 +12,8 @@ window.addEventListener("load", () => {
   let winningArray = [];
   let flips = 0;
   let message;
+  let busy;
+
 
 
   // Eventlisteners
@@ -68,7 +70,7 @@ window.addEventListener("load", () => {
 
 
     if (chosenArray.length === 2 && chosenIds.length === 2) {
-      setTimeout(checkMatch, 1000);
+      setTimeout(checkMatch, 1500);
     }
   };
 
@@ -78,7 +80,6 @@ window.addEventListener("load", () => {
     const choiceId2 = chosenIds[1];
     const choice1 = chosenArray[0];
     const choice2 = chosenArray[1];
-
 
     if (choiceId1 == choiceId2) {
       cards[choiceId1].classList.remove("visible");
@@ -110,10 +111,8 @@ window.addEventListener("load", () => {
     chosenArray = [];
   };
 
-
   function winner() {
-    message = "Congratulations you won the game! You have a very good memory!";
-    displayFeedback(message);
+    feedback.textContent = "Congratulations you won the game! You have a very good memory!";
   };
 
   function displayFeedback(message) {
@@ -146,6 +145,4 @@ window.addEventListener("load", () => {
       cards[i].style.order = randIndex;
     }
   };
-
-
 }); // End load eventlistener
