@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
     for (let i = 0; i < cardsArray.length; i++) {
       const imageCard = document.createElement("img");
       imageCard.setAttribute("class", "card");
-      imageCard.setAttribute("src", "../images/card-back-200x200-v2.png"); // cardsArray[i].location
+      imageCard.setAttribute("src", "images/card-back-200x200-v2.png"); // cardsArray[i].location
       imageCard.setAttribute("data-card", cardsArray[i].name);
       imageCard.setAttribute("data-id", cardsArray[i].id);
       imageCard.setAttribute("alt", cardsArray[i].name + " Card");
@@ -60,7 +60,7 @@ window.addEventListener("load", () => {
 
 
     if (choiceId1 == choiceId2) {
-      cards[choiceId1].setAttribute("src", "../images/card-back-200x200-v2.png");
+      cards[choiceId1].setAttribute("src", "images/card-back-200x200-v2.png");
       message = "You chose the same card!";
       displayFeedback(message);
     } else if (choice1 == choice2) {
@@ -75,8 +75,8 @@ window.addEventListener("load", () => {
     } else {
       message = "Alas!";
       displayFeedback(message);
-      cards[choiceId1].setAttribute("src", "../images/card-back-200x200-v2.png");
-      cards[choiceId2].setAttribute("src", "../images/card-back-200x200-v2.png");
+      cards[choiceId1].setAttribute("src", "images/card-back-200x200-v2.png");
+      cards[choiceId2].setAttribute("src", "images/card-back-200x200-v2.png");
     }
 
     if (winningArray.length / 2 == cardsArray.length / 2) {
