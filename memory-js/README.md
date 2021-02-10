@@ -1,5 +1,7 @@
 # Remake Junior Memory 1969 from Ravensburger
 
+Updated: 9-2-2021
+
 * 72 cards (36 pairs)
 * :root {--blue: #AEDCE9; } --> background-color: var(--blue);
 * .firstElementChild(); (Similar to .firstChild());
@@ -9,6 +11,7 @@
 * Fisher-Yates shuffle algorithm.
 * Flexbox: order. 
 * CSS backface visibility. See resources section below.
+* clearTimeout: Initiate a global variable. Within a function pass the timeout to this variable within local scope. Now this timeout is available globally. 
 
 
 
