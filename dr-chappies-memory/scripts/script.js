@@ -19,7 +19,6 @@ window.addEventListener("load", () => {
   let numberOfCardsChosen = 72;
 
 
-
   // Eventlisteners
   btn_newGame.addEventListener("click", newGame);
   numberOfCardsSlider.addEventListener("input", numberOfCards);

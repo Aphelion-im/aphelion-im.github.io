@@ -1,6 +1,8 @@
 # Remake Junior Memory 1969 from Ravensburger
 
-Updated: 9-2-2021
+Updated: 15-2-2021
+
+This version is based on the Junior Memory card game from Ravensburger's. This is for educational purposes only.
 
 * 72 cards (36 pairs)
 * :root {--blue: #AEDCE9; } --> background-color: var(--blue);
