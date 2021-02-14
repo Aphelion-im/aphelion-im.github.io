@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=”robots” content=”noindex”>
+  <title>Dr. Chappie's Memory</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <div class="info">
+    <p class="output">Score: 0</p>
+    <button class="btn_newGame">New Game</button>
+    <p class="flips">Flips: 0</p>
+  </div>
+  <div class="choices">
+    <span># of Cards</span><input class="numberOfCardsSlider" min="2" max="72" step="2" value="72"
+      type="range"><span>72</span>
+    <div class="feedback"></div>
+  </div>
+  <main class="grid"></main>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/cards-database-v2.js"></script>
+</body>
+
+</html>
