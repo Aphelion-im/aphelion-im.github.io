@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+:root {
+  --duration: 3s;
+  --degrees: 360deg;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Squada One', cursive;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+p.score {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+p.output {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+.smiley {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  animation: example var(--duration) linear 1;
+  cursor: pointer;
+  user-select: none;
+}
+
+@keyframes example {
+  from {
+    top: -300px;
+    transform: rotate(0deg);
+  }
+
+  to {
+    top: 110%;
+    transform: rotate(var(--degrees));
+  }
+}
