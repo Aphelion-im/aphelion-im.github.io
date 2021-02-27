@@ -1,0 +1,335 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Open Sans', Arial, sans-serif;
+  letter-spacing: 0.75px;
+}
+
+
+li.active a {
+  text-decoration: none;
+}
+
+ul.nav.navbar-nav li a {
+  text-transform: none;
+  text-decoration: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.menuGerechtenTable {
+  color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14.67px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.vlaggenImg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10px;
+  width: 57.5%;
+  height: 57.5%;
+}
+
+.tekstRechts {
+  text-align: right;
+}
+
+td {
+  padding-top: 2px;
+}
+
+tr:hover {
+  background-color: rgba(55, 126, 63, 0.5);
+  cursor: default;
+}
+
+.trSpecial:hover {
+  background-color: #000;
+  cursor: default;
+}
+
+th {
+  background-color: #E3000F;
+  color: #fff;
+  padding-left: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.vegicon,
+.vegetarianicon {
+  margin-left: 5px;
+  margin-top: -1px;
+  width: 15px;
+  height: 15px;
+}
+
+.legenda {
+  color: #fff;
+  font-size: 10px;
+  margin-top: 25px;
+  margin: auto;
+}
+
+.legendaVegicon {
+  position: relative;
+  right: 7px;
+}
+
+.colA {
+  width: 3px;
+}
+
+.colB {
+  width: 450px;
+}
+
+.colC {
+  width: 75px;
+}
+
+.colD {
+  width: 75px;
+}
+
+.logo-img {
+  width: 30%;
+  height: 30%;
+  margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.logo-icoon-img {
+  width: 20%;
+  height: 20%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+a:link {
+  text-decoration: underline;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.telephone {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  color: #fff;
+  line-height: 20px;
+}
+
+li.telephone>a {
+  text-decoration: underline;
+  color: #fff;
+  display: inline;
+  line-height: 20px;
+}
+
+.toggleText {
+  margin-right: 10px;
+}
+
+.emptySpace {
+  margin-left: 75px;
+}
+
+footer {
+  border-top: solid 1px #111;
+  background-color: #030303;
+  font-weight: bold;
+  font-size: 0.75em;
+  color: #fff;
+  text-align: center;
+  margin-top: 75px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.littleBar {
+  background-color: #333;
+  padding: 5px;
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+}
+
+.fa {
+  margin-right: 3px;
+  vertical-align: center;
+}
+
+
+/* Responsive Layout */
+
+
+/* Mobile Screen ( greater than 720px )
+***************************************
+*/
+
+@media screen and (min-width: 720px) {}
+
+
+/* 720px to 959px Screen
+************************
+*/
+
+@media screen and (min-width: 720px) and (max-width: 959px) {
+  .vlaggenImg {
+    width: 90%;
+  }
+}
+
+
+/* Screen widths below 720px
+****************************
+
+*/
+
+@media screen and (max-width: 719px) {
+  .vlaggenImg {
+    width: 100%;
+  }
+}
+
+
+/* Medium Screen ( 480px to 719px )
+***********************************
+*/
+
+@media screen and (min-width: 480px) and (max-width: 719px) {
+  .vlaggenImg {
+    width: 100%;
+  }
+
+  .logo-img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .logo-icoon-img {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+
+/* Mobile Screen ( smaller than 480px )
+***************************************
+*/
+
+@media screen and (max-width: 480px) {
+  .logo-img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .logo-icoon-img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .menuGerechtenTable {
+    font-size: 9px;
+  }
+
+  .vegicon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .colA {
+    width: 25px;
+  }
+
+  .colB {
+    width: 100px;
+  }
+
+  .colC {
+    width: 50px;
+  }
+
+  .colD {
+    width: 50px;
+  }
+
+  .vlaggenImg {
+    width: 100%;
+  }
+
+
+  .toggleText {
+    display: none;
+  }
+
+
+}
+
+
+/* Portrait iPad */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .vlaggenImg {
+    width: 90.5%;
+  }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .vlaggenImg {
+    width: 69.5%;
+  }
+}
+
+/*
+   FILE ARCHIVED ON 11:06:51 Aug 31, 2018 AND RETRIEVED FROM THE
+   INTERNET ARCHIVE ON 22:25:11 Feb 27, 2021.
+   JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+   ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+   SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+captures_list: 234.782
+exclusion.robots: 0.16
+exclusion.robots.policy: 0.153
+RedisCDXSource: 1.527
+esindex: 0.008
+LoadShardBlock: 207.635 (3)
+PetaboxLoader3.datanode: 171.703 (4)
+CDXLines.iter: 22.792 (3)
+load_resource: 91.07
+PetaboxLoader3.resolve: 46.755
+*/
