@@ -83,6 +83,17 @@ th {
   height: 15px;
 }
 
+.trSpecial .vegetarianicon {
+  width: 10px;
+  height: 10px;
+  transform: translateX(-3px);
+}
+
+.trSpecial .asterisk {
+  text-align: center;
+  padding: 0 8px 0 4px;
+}
+
 .legenda {
   color: #fff;
   font-size: 10px;
@@ -312,24 +323,3 @@ footer {
   }
 }
 
-/*
-   FILE ARCHIVED ON 11:06:51 Aug 31, 2018 AND RETRIEVED FROM THE
-   INTERNET ARCHIVE ON 22:25:11 Feb 27, 2021.
-   JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-   ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-   SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-captures_list: 234.782
-exclusion.robots: 0.16
-exclusion.robots.policy: 0.153
-RedisCDXSource: 1.527
-esindex: 0.008
-LoadShardBlock: 207.635 (3)
-PetaboxLoader3.datanode: 171.703 (4)
-CDXLines.iter: 22.792 (3)
-load_resource: 91.07
-PetaboxLoader3.resolve: 46.755
-*/
