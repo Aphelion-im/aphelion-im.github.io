@@ -1,0 +1,114 @@
+﻿/* 757T12 */
+body {
+	background:url(images/voeten.jpg);
+	background-size:cover;
+	
+}
+
+
+
+
+#wrapper {
+	
+	position:relative;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+header {
+	
+	height:120px;
+	width:1000px;
+	background-color:antiquewhite;
+	background-image:url('images/header1.jpg');
+	background-repeat:no-repeat;
+	border: 3px solid #CFAB8B;
+	border-radius:15px;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+header h1 {
+	padding:15px;
+	color:#FDE680;
+	font-family:Oswald, Arial, sans-serif;
+}
+
+nav {
+	
+	position:absolute;
+	top:130px;  
+	width:120px;
+	height:500px;
+
+}
+
+
+article {
+	font-family:Arial, Verdana,sans-serif;
+	font-size:12px;
+	position:absolute;
+	color:#333;
+	top:130px;
+	left:130px;
+	width:840px;
+	min-height:470px;
+	background-color:rgb(250,235,215); /* Oude browsers */
+	background-color:rgba(250,235,215,0.5);
+	padding:15px;
+	border-radius:15px;
+	border: 3px solid #CFAB8B;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+/* Hyperlinks */
+
+a {
+	
+	color:#769492;
+}
+
+
+
+
+a:link {
+	text-decoration:none;
+	
+}
+
+a:visited {
+	color:teal;
+	
+	
+}
+
+a:hover {
+	text-decoration:underline;
+	
+}
+
+a:active {
+	color:lime;
+	
+}
+
+/* Opdracht 757T8 */
+
+ nav img {
+    border:0px;
+ }
+
+/* Opdracht 757T11 */
+
+article img {
+	
+	margin:5px;	
+	border:0px;
+
+}

@@ -1,0 +1,15 @@
+Er staan veel validatiefouten in burns.html en 2 fouten in home.html. http://validator.w3.org/
+
+Je CSS valideert wel. Neem in de volgende opdracht wel mee, dat je CSS3 styling afvangt met -webkit en -moz zodat het werkt in alle meest gebruikte browsers. Zelf gebruik ik deze website graag: www.css3generator.com.
+
+De video werkt niet in Google Chrome.
+
+Laat je HTML wat netter inspringen, zeker bij een tabel brengt dit meer overzicht in je code.
+
+In totaal heb je: 81 punten, gefeliciteerd!
+
+Het tekstbestand 'Aan de docent.txt' was overigens leeg. Dus als je nog vragen hebt kun je die via de campus stellen.
+
+Met vriendelijke groet,
+
+M. Uylenbroek

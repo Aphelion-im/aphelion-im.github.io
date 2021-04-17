@@ -1,0 +1,38 @@
+body {
+    background-color: #fff;
+    color: #184D8F;
+    font-family: Calibri, Arial, sans-serif;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    /* Even in plaats van een browser CSS reset */
+}
+
+.content {
+    border-top: 2px solid #184D8F;
+    border-bottom: 2px solid #184D8F;
+    font-size: 1em;
+    height: 50%;
+    min-height: 50vh;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+header {
+    height: 84px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+section>p {
+    font-weight: bold;
+}

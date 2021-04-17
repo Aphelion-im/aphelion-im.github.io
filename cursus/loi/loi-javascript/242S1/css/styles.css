@@ -1,0 +1,81 @@
+body {
+    background-color: #009FE3;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #009FE3;
+    margin-bottom: 15px;
+}
+
+.kopjerechts {
+    font-size: 1rem;
+    float: right;
+    padding-right: 10px;
+}
+
+input {
+    display: block;
+    font-size: 11px;
+    width: 25%;
+    height: 25px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 1px solid #009FE3;
+}
+
+button {
+    padding: 5px 25px;
+    border: 1px solid #009FE3;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.75);
+}
+
+button:hover {
+    background-color: #009FE3;
+}
+
+p {
+	    font-size: 14px;
+}
+
+.wrapper {
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    width: 70%;
+    height: 80vh;
+    box-shadow: 7px 7px 5px 1px rgba(50, 50, 50, 0.75);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.logo {
+    width: 100px height: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    input {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    input {
+        width: 90%;
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+    .kopjerechts {
+        padding-right: 0;
+    }
+}

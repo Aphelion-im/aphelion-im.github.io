@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>LOI opdracht 242S2 - HBO Programmeren in Javascript - Door André de Groot</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- Style sheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <a href="index.html"><img src="img/big_loi.png" class="logo" alt="Loi logo" /></a>
+            <h1 class="kopjerechts">Opdracht 242S2</h1>
+        </header>
+        <section>
+            <input type="text" id="bedragInvoeren" placeholder="Voer een bedrag in en druk op Enter" autofocus>
+            <h3>Totaal</h3>
+            <div id="output">&euro; 0 (Inclusief BTW).</div>
+            <div id="outputZonderBtw"></div>
+            <div id="outputBtw"></div>
+            <div id="warning"></div>
+            <button id="berekenBtwButton" title="Bereken BTW">Bereken BTW</button>
+            <button id="resetButton" title="Reset het totaalbedrag">Reset</button>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

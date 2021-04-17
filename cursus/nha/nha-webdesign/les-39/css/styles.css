@@ -1,0 +1,223 @@
+/* Kleuren met Paletton: http://www.paletton.com/#uid=23o0M0ki4v0kPLVjHCcenshe8lv */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: #46879A;
+    font-family: Calibri, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+header {
+    height: 20vh;
+    background-color: #4EB5D2;
+    line-height: 20vh;
+    width: 100%;
+}
+
+nav {
+    background-color: #499DB4;
+    display: block;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    background-color: #46879A;
+    min-height: 61vh;
+    margin: 0 auto;
+    padding: 20px 20px;
+    width: 50%;
+}
+
+.footer {
+    background-color: #4F7F8C;
+    display: block;
+    height: 10vh;
+    line-height: 10vh;
+    margin: 0;
+}
+
+.smallbar {
+    background-color: #3D606B;
+    display: block;
+    font-size: 0.75rem;
+    height: 4vh;
+    line-height: 4vh;
+    margin: 0;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(165, 227, 247);
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+li a {
+    display: inline-block;
+    padding: 0 10px;
+    text-decoration: none;
+    margin: -2px;
+}
+
+li a:hover {
+    background-color: #3D606B;
+}
+
+a:visited {
+    color: rgb(177, 238, 255);
+}
+
+.active {
+    background-color: #3D606B;
+}
+
+section img {
+    width: 25%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    line-height: 5vh;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+footer ul {
+    list-style-type: none;
+    line-height: 10vh;
+    margin: 0px;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+}
+
+main article {
+    margin: 0 0 35px 0;
+}
+
+main article img {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+main article h3 {
+    text-align: left;
+}
+
+
+/****************************
+Inschrijfformulier*/
+input,
+option,
+select,
+button {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+select,
+input {
+    width: 100%;
+}
+
+.contactForm {
+    border: 1px solid #fff;
+    padding: 25px;
+    width: 50%;
+}
+
+.vetteTekst {
+    font-weight: bold;
+}
+
+/****************************
+Contactformulier*/
+.contactInfo {
+    width: 50%;
+}
+
+/****************************
+Afbeeldingen*/
+.logo {
+    display: block;
+    width: 125px;
+    height: auto;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+.afbeeldingLinks {
+    width: 125px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.afbeeldingRechts {
+    width: 125px;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+}
+
+/****************************
+Sitemap*/
+
+.sitemap {
+    list-style-type: none;
+}
+
+.sitemap a:hover,
+.links a:hover {
+    background-color: #46879A;
+}
+
+/****************************
+Extra*/
+#accordion {
+    color: #fff;
+    background-color: #46879A;
+    font-family: Calibri, Arial, sans-serif;
+    margin-bottom: 25px;
+}
+
+#accordion>h3 {
+    background-color: #4EB5D2;
+    border: 1px solid #3D606B;
+}
+
+#accordion>div {
+    background-color: #4EB5D2;
+    border: 1px solid #3D606B;
+}

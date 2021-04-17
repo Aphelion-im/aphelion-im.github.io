@@ -1,0 +1,78 @@
+﻿#wrapper {
+	
+	position:relative;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+header {
+	
+	height:120px;
+	width:1000px;
+	background-color:antiquewhite;
+	background-image:url('images/header1.jpg');
+	background-repeat:no-repeat;
+	
+}
+
+nav {
+	
+	position:absolute;
+	top:130px;  
+	width:120px;
+	height:500px;
+	background-color:antiquewhite;
+	
+}
+
+article {
+	
+	position:absolute;
+	top:130px;
+	left:130px;
+	width:840px;
+	min-height:470px;
+	background-color:antiquewhite;
+	padding:15px;
+	
+}
+
+/* Links */
+
+a:link {
+	text-decoration:none;
+	
+}
+
+a:visited {
+	color:teal;
+	
+	
+}
+
+a:hover {
+	text-decoration:underline;
+	
+}
+
+a:active {
+	color:lime;
+	
+}
+
+/* Opdracht 757T8 */
+
+ nav img {
+    border:0px;
+ }
+
+/* Opdracht 757T11 */
+
+article img {
+	
+	margin:5px;	
+	border:0px;
+
+}

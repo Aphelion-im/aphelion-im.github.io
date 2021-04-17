@@ -1,0 +1,285 @@
+/* Stylesheet André de Groot Inzendopgaven 406Q9 */ 
+
+body {
+	background: url(../images/poem.jpg) fixed left center; 
+	margin: 0px;
+	padding: 0px;
+	font-family:arial, verdana, sans-serif;
+	font-size:12px;
+	
+}
+
+table, th, td {
+	margin:0px;
+	padding:0px;
+	border-spacing:0px;
+
+	}
+
+
+aside td {
+height:40px;
+
+}
+
+aside td {
+padding-left:5px;
+padding-right:5px;
+}
+
+
+aside tr:nth-child(2n+1) {
+background-color:#CCC2B9;
+}
+
+aside tr:nth-child(2n) {
+background-color:#A8A197;
+}
+
+
+aside tr {
+height:40px;
+}
+
+.rowblokje {    
+
+	box-shadow:0.1em 0.1em 0.1em 0.1em #333;
+	background-color:#B6976B;
+	height:25px;
+	display:inline;
+	padding:6px 5px 5px 5px;
+	margin-left:30px;
+
+}
+
+
+
+tr td
+{
+   border-bottom: 1px solid #9C7A3C;
+   padding:5px 0px 5px 0px;
+ 
+}
+
+aside tr td {
+
+border-bottom: 0px solid #9C7A3C;
+
+}
+
+	
+ul {
+	font-weight:bold;
+	-moz-padding-start: 0px;
+	-webkit-padding-start: 0px;
+}
+
+aside ul {
+	-moz-padding-start: 25px;
+	-webkit-padding-start: 25px;
+}
+
+
+em {
+	color:#666666;    
+	font-weight:bold;
+	letter-spacing:0.1em;
+
+}
+
+footer {
+	text-align:center;
+	padding: 20px;
+}
+
+
+section figure {
+	text-align: center;
+}
+
+
+
+
+
+aside {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius:5px;
+	box-shadow:0.33em 0.25em 0.6em 0.4em #333;
+	padding-bottom: 20px;
+	clear: both;
+	padding-top:20px;
+	
+}
+
+header h1 {
+	text-align: center;
+	text-shadow:#666 1px 1px 1px;
+	background: #9C7A3C;
+	border-radius:5px 5px 0 0;
+}
+
+
+article {
+	background: rgba(170,140,100,0.7) ;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top:10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+article p {
+	line-height: 16px;
+}
+
+header {
+	background: #B6976B;
+	text-align: center;
+	border-radius:5px;
+}
+
+
+h1 {
+	font-size:20px;
+	background-color:#D3A971;
+	padding: 5px;
+	border-radius:5px;
+}
+
+h2 {
+	font-size:16px;
+	background-color:#D3A971;
+	padding: 4px;
+	border-radius:5px;
+}
+
+tfoot td{
+border-top:solid 2px #B7775B;
+
+}
+
+
+hr {
+color: #B8785C;
+background-color: #B8785C;
+height: 2px;
+width:100%;
+
+}
+
+img {
+margin-left:2px;
+margin-right:2px;
+
+}
+
+
+cite {
+	font-weight:bold;
+}
+
+
+figcaption {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+}
+
+
+
+small {
+}
+
+blockquote {
+	border: thin solid #D3A971;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	font: italic 14px "Times New Roman", Times, serif;
+	float:left;
+
+}
+
+
+strong {
+font-size: 1.1em;
+}
+
+
+.jaartal {
+color:#660000;
+font-weight:bold;
+}
+
+ a {
+ text-decoration: none;
+ color:#54154C;
+ 
+ }
+ 
+ a:hover{
+ color:#600;
+ }
+ 
+ a:visited{
+ color:#444283;
+ }
+ 
+ aside  a:visited{
+ color:#A93F3B;
+ }
+ 
+
+nav ul li {
+display:block;
+}
+
+nav ul li a {
+display:block;
+background-color:#D3A971;
+width:300px;
+padding-left:5px;
+}
+ 
+ nav a:hover {
+ background-color:#B6976B;
+ }
+ 
+/* Formulier */
+
+#formulier1 {
+	box-shadow:0.1em 0.1em 0.1em 0.1em #333;
+	background-color:#B6976B;
+	padding:6px 5px 5px 5px;
+	margin-top:15px;
+		
+}
+
+#formulier1 tr td {
+border-bottom:0px;
+padding:5px;
+}
+
+
+
+ input {
+ background-color:#E1BB85;
+ border:none;
+ }
+ 
+ select {
+ background-color:#E1BB85;
+ border:none;
+ }
+ 
+ label {
+ 	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+
+	
+}
+

@@ -1,0 +1,128 @@
+/* Kleuren met Paletton: http://www.paletton.com/#uid=23o0M0ki4v0kPLVjHCcenshe8lv */
+
+body {
+    color: #fff;
+    background-color: #46879A;
+    font-family: Calibri, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h1,
+h3,
+h5 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+
+h2,
+h4,
+h6 {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+header {
+    height: 20vh;
+    background-color: #4EB5D2;
+    line-height: 20vh;
+}
+
+nav {
+    background-color: #499DB4;
+    display: block;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    background-color: #46879A;
+    box-sizing: border-box;
+    height: 40%;
+    min-height: 70vh;
+    margin: 0 auto;
+    padding: 50px 20px;
+    width: 50%;
+}
+
+footer {
+    background-color: #4F7F8C;
+    display: block;
+    height: 5vh;
+    line-height: 5vh;
+    margin: 0;
+
+}
+
+
+a:link {
+    color: rgb(165, 227, 247);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(177, 238, 255);
+}
+
+
+section img {
+    width: 25%;
+    height: 25%;
+}
+
+nav ul {
+    list-style-type: none;
+    line-height: 5vh;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main article {
+    margin: 0 0 35px 0;
+}
+
+main article img {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+
+}
+
+main article h3 {
+    text-align: left;
+}
+
+.leesmeer {
+    display: block;
+    margin-left: 10px;
+}
+
+.quote {
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+}

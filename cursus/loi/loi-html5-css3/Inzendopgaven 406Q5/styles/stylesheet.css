@@ -1,0 +1,158 @@
+/* Stylesheet André de Groot Inzendopgaven 406Q5 */ 
+
+
+body {
+	font-family:arial, verdana, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	background: #666 url('images/poem.jpg') no-repeat fixed center; /*Krijg het achtergrondplaatje niet aan de praat */
+}
+
+
+
+
+/* Hoe kan ik de ruimte tussen de bullet en de tekst kleiner krijgen? Heb echte bullets gebruikt ipv geschreven bullets zoals in het originele document. */ 
+
+ul {
+	font-weight:bold;
+	text-indent:-13px;
+	list-style-position:inside;
+}
+
+ol {
+	text-indent:-1px;
+}
+
+em {
+	color:#666666;    /* Ik had ook #666 kunnen gebruiken uiteraard */ 
+	font-weight:bold;
+	letter-spacing:0.1em;
+
+}
+
+footer {
+	text-align:center;
+	padding: 20px;
+}
+
+/* Plaatjes met caption tekst in het midden */
+section figure {
+	text-align: center;
+}
+
+aside {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius:5px;
+	box-shadow:0.33em 0.25em 0.6em 0.4em #333;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+/* Header kopje met schaduw */
+/* Hier ook de webkit varianten regels schrijven en moz? etc. */
+header h1 {
+	text-align: center;
+	text-shadow:#666 1px 1px 1px;
+	background: #9C7A3C;
+	border-radius:5px 5px 0 0;
+}
+
+/* Extra stijlen voor opdracht en uitwerking Inzendopgaven 406Q5 */
+
+/* Het element article.*/
+
+article {
+	background: #FFEEBD;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top:10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+/* Alle alinea’s binnen het element article. */
+
+article p {
+	line-height: 16px;
+}
+
+header {
+	background: #B6976B;
+	text-align: center;
+	border-radius:5px;
+}
+
+
+/* Koppen h1 en h2. */
+h1 {
+	font-size:20px;
+	background-color:#D3A971;
+	padding: 5px;
+	border-radius:5px;
+}
+
+h2 {
+	font-size:16px;
+	background-color:#D3A971;
+	padding: 4px;
+	border-radius:5px;
+}
+
+
+/* Het element body. -- Zie boven*/
+
+
+/* Het element cite. */
+cite {
+	font-weight:bold;
+}
+
+
+
+
+/* Het element figcaption. */
+
+figcaption {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+}
+
+
+
+
+
+/* Het element small. */
+small {
+}
+
+
+/* Het element blockquote. */
+blockquote {
+	border: thin solid #D3A971;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	font: italic 14px "Times New Roman", Times, serif;
+	float:left;
+}
+
+
+
+/* Het element strong. */
+strong {
+font-size: 1.1em;
+}
+
+
+
+/* Klassenselector met de naam "jaartal" */
+.jaartal {
+color:#660000;
+font-weight:bold;
+}
+

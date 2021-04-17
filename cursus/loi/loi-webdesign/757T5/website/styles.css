@@ -1,0 +1,39 @@
+﻿#wrapper {
+	
+	position:relative;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+header {
+	
+	height:120px;
+	width:1000px;
+	background-color:antiquewhite;
+	background-image:url('images/header1.jpg');
+	background-repeat:no-repeat;
+	
+}
+
+nav {
+	
+	position:absolute;
+	top:130px;  
+	width:120px;
+	height:500px;
+	background-color:antiquewhite;
+	
+}
+
+article {
+	
+	position:absolute;
+	top:130px;
+	left:130px;
+	width:870px;
+	min-height:500px;
+	background-color:antiquewhite;
+	
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=description content="NHA Huiswerk Les 22">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Kinderspulletjes.nl - Aanmelden grofvuil</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+
+            <h1>Aanmelden Grof Vuil</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.htm">Home</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+                <li><a href="doelstelling.htm">Doelstelling</a></li>
+                <li><a href="doelgroep.htm">Doelgroep</a></li>
+                <li><a href="nieuws.htm">Nieuws</a></li>
+            </ul>
+        </nav>
+        <section>
+
+
+            <h2>Aanmelden Grof Vuil - Ons Dorp</h2>
+
+
+            <form method="post" action="contactengine.php">
+                <table>
+                    <tr>
+                        <td class="tekstrechts">Naam:</td>
+                        <td><input type="text" name="naam" id="naam"></td>
+                    </tr>
+                    <tr>
+                        <td class="tekstrechts">Straat en huisnummer:</td>
+                        <td><input type="text" name="straathuisnummer"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tekstrechts">Postcode en woonplaats:</td>
+                        <td><input type="text" name="postcodewoonplaats"></td>
+                    </tr>
+                    <tr>
+                        <td class="tekstrechts">E-mail adres:</td>
+                        <td><input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="tekstrechts">Betaalmethode:</td>
+                        <td>
+                            <input type="radio" name="betaalmethode" value="Rembourszending" checked>Rembourszending
+                            <input type="radio" name="betaalmethode" value="Vooruitbetaling">Vooruitbetaling<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tekstrechts">Soort:</td>
+                        <td>
+                            <input type="checkbox" name="soort" value="Apparaten">Apparaten
+                            <input type="checkbox" name="soort" value="Tuinafval">Tuinafval
+                            <input type="checkbox" name="soort" value="Grof afval">Grof afval
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tekstrechts">Apparaat:</td>
+                        <td>
+                            <select name="apparaat" size="2">
+                                <option value="kieselectrischeapparaten">Kies electrische apparaten</option>
+                                <option value="afzuigkap">Afzuigkap</option>
+                                <option value="computerapparaat">Computerapparaat</option>
+                                <option value="koelkast">Koelkast</option>
+                                <option value="koffiezetapparaat">Koffiezetapparaat</option>
+                                <option value="radio">Radio</option>
+                                <option value="televisie">Televisie</option>
+                                <option value="vaatwasser">Vaatwasser</option>
+                                <option value="wasmachine">Wasmachine</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tekstrechts">Tuinafval:</td>
+                        <td>
+                            <select name="tuinafval" size="2">
+                                <option value="kiestuinafval">Kies tuinafval</option>
+                                <option value="groenteafval">Groenteafval</option>
+                                <option value="stammetjesgroot">Stammetjes en stronken dikker dan 10cm</option>
+                                <option value="stammetjesklein">Stammetjes en stronken dunner dan 10cm</option>
+                                <option value="tuinafval">Tuinafval</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tekstrechts">Grof tuinafval:</td>
+                        <td>
+                            <select name="tuinafval" size="2">
+                                <option value="kiesgrofafval">Kies grof afval</option>
+                                <option value="bank">Bank</option>
+                                <option value="bureauhout">Bureau - hout</option>
+                                <option value="bureaustaal">Bureau - staal</option>
+                                <option value="kachel">Kachel</option>
+                                <option value="laminaat">Laminaat</option>
+                                <option value="traphout">Trap/ladder - hout</option>
+                                <option value="vloerbedekking">Vloerbedekking</option>
+                                <option value="wandbekleding">Wandbekleding</option>
+                                <option value="zonweringhout">Zonwering - hout</option>
+                                <option value="zonweringmetaal">Zonwering - metaal</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input type="submit" value="Verzenden">
+                            <input type="reset" value="Wissen"></td>
+                    </tr>
+                </table>
+            </form>
+
+
+
+
+
+        </section>
+        <footer>
+            <h5><a target="_self" href="contact.htm">Contact</a> | <a target="_self"
+                    href="doelstelling.htm">Doelstelling</a> | <a target="_self" href="doelgroep.htm">Doelgroep</a></h5>
+        </footer>
+    </div>
+</body>
+
+</html>

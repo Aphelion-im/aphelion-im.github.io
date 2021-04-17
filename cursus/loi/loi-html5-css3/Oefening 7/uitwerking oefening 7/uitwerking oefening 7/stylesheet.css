@@ -1,0 +1,180 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(images/poem.jpg) no-repeat fixed center center;
+	font: 14px/20px Arial, Helvetica, sans-serif;
+}
+
+figcaption {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+cite {
+	font-weight: bold;
+}
+h1, h2 {
+	background-color: rgb(170,140,100) ;
+	font-size: 18px;
+	padding: 5px;
+	border-radius:5px;
+}
+em {
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	color: #666;
+}
+small {
+	text-align: center;
+	padding: 10px 10px 20px;
+}
+blockquote {
+	border: thin solid #D3A971;
+	float: left;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	font: italic 14px "Times New Roman", Times, serif;
+}
+strong {
+}
+.jaartal {
+	color: #600;
+	font-weight: bold;
+}
+header h1 {
+	text-align: center;
+	text-shadow:#666 1px 1px 1px;
+	background: #9C7A3C;
+	border-radius:5px 5px 0 0;
+}
+header {
+	background: #B6976B;
+	text-align: center;
+	border-radius:5px;
+}
+article {
+	background: rgba(170,140,100,0.7) ;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top:10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+article p  {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+aside {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius:5px;
+	box-shadow:0.33em 0.25em 0.6em 0.4em #333;
+	padding-bottom: 20px;
+	clear: both;
+	padding-top: 10px;
+}
+aside h1.top {
+	border-radius:5px 5px 0 0;
+}
+section figure {
+	text-align: center;
+}
+article, section, nav, header, footer, aside {
+	display: block;
+}
+footer {
+	text-align: center;
+	padding: 20px;
+}
+a {
+	color: #366;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFF;
+}
+nav ul {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li {
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li a {
+	font-weight: bold;
+	color: #FFF;
+	display: block;
+	width: 250px;
+	background: #8D6A30;
+	padding: 5px;
+	border-top: 1px solid #A17F4D;
+	border-right: 1px solid #795B22;
+	border-bottom: 1px solid #373718;
+	border-left: 1px solid #5D501D;
+}
+nav a:hover {
+	background: #6D4F1E;
+}
+aside table, aside th, aside td {
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+}
+aside table{border: 1px solid hsl(180,75%,25%);
+}
+aside th, aside td {
+	padding:6px;
+	text-align:left;
+}
+aside thead tr{
+	background-color:hsl(180,75%,25%);
+	color:hsl(180,25%,80%);
+}
+aside tbody tr:nth-child(even) {
+	background-color:hsl(180, 25%, 85%);
+}
+aside tbody tr:nth-child(odd) {
+	background-color:hsl(180, 25%, 95%);
+}
+
+.recordingsinfo {
+	font-size: 11px;
+	font-weight: bold;
+}
+.synopsis {
+	font-size: 12px;
+}
+section table td  {
+	padding: 5px;
+	border-spacing: 0;
+	border-bottom: 1px solid #B24B34;
+}
+section table {
+	border-spacing: 0;
+}
+
+section table table {
+	background: #B6976B;
+	border-top: 1px solid #D5AE7C;
+	border-right: 1px solid #AA8C64;
+	border-bottom: 1px solid #67543C;
+	border-left: 1px solid #AA8C64;
+}
+section table table td {
+	border-style: none;
+}
+.catno {
+	width: 60px;
+}
+input , select{
+	background: #E1BB85;
+	border-top: 1px solid #9C825C;
+	border-right: 1px solid #E9C18A;
+	border-bottom: 1px solid #E9C18A;
+	border-left: 1px solid #9C825C;
+}

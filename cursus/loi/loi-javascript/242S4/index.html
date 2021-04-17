@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>LOI opdracht 242S4 - HBO Programmeren in Javascript - Door André de Groot</title>
+    <script async src="js/script.js"></script>
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- Style sheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- Font awesome icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <a href="index.html"><img src="img/big_loi.png" class="logo" alt="Loi logo" title="Loi logo" /></a>
+            <h1 class="kopjerechts">Opdracht 242S4</h1>
+        </header>
+        <section>
+            <h1>Persoonsgegevens bewerken</h1>
+            <table id="myTable">
+                <tr>
+                    <th>Nummer</th>
+                    <th>Voornaam</th>
+                    <th>Achternaam </th>
+                    <th>Punten</th>
+                    <th class="verwijderRij"></th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Frans</td>
+                    <td>Bauer</td>
+                    <td>47</td>
+                    <td><span class="fa fa-trash-o" title="Verwijderen"></span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Willem</td>
+                    <td>van Oranje</td>
+                    <td>80</td>
+                    <td><span class="fa fa-trash-o" title="Verwijderen"></span></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Selah</td>
+                    <td>Sue</td>
+                    <td>93</td>
+                    <td><span class="fa fa-trash-o" title="Verwijderen"></span></td>
+                </tr>
+            </table>
+            <label>Voornaam:</label>
+            <input id="voorNaam" maxlength="10">
+            <label>Achternaam:</label>
+            <input id="achterNaam" maxlength="10">
+            <label>Aantal punten:</label>
+            <input id="aantalPunten" maxlength="4">
+            <button id="voegToeButton">Toevoegen</button>
+            <button id="resetButton">Reset</button>
+            <p id="uitvoer"></p>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>LOI opdracht 242S3 - HBO Programmeren in Javascript - Door André de Groot</title>
+    <script async src="js/script.js"></script>
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- Style sheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <a href="index.html"><img src="img/big_loi.png" class="logo" alt="Loi logo" title="Loi logo" /></a>
+            <h1 class="kopjerechts">Opdracht 242S3</h1>
+        </header>
+        <section>
+        <h1>Eindkapitaal en spaarrente berekenen</h1>
+        <ul>
+        <li>Bepaal uw éénmalige eerste inleg.</li>
+        <li>Geef het rentepercentage aan dat u ontvangt.</li>
+        <li>Op basis van onderstaand wordt het eindsaldo berekend.</li>
+          </ul>
+            <p>Voer jouw geboortedatum in <em>(dd-mm-jjjj)</em></p>
+            <input id="invoerDatum" type="text" placeholder="Geboortedatum dd-mm-jjjj" autofocus>
+            <p>Uw eenmalige eerste inleg <em>(In &euro;)</em></p>
+            <input id="invoerBedrag" type="text" placeholder="Bedrag &euro;">
+            <p>Voer een percentage in <em>(Percentage per jaar)</em></p>
+            <input id="invoerPercentage" type="text" placeholder="Percentage &#37;">
+            <button id="berekenBedrag" title="Bereken saldo en rente percentage">Bereken</button>
+            <button id="resetButton" title="Reset de ingevoerde waarde(n)">Reset</button>
+
+            <p id="uitvoer"></p>
+        </section>
+
+    </div>
+</body>
+
+</html>

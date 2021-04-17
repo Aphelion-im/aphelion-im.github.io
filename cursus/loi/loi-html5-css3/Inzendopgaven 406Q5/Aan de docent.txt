@@ -1,0 +1,20 @@
+Beste docent,
+
+Vraag 1:
+--------
+Waarvoor dienen de volgende regels in het document? Ik zie niet echt een effect:
+
+article, section, nav, header, footer, aside {
+	display: block;
+}
+
+
+Vraag 2:
+--------
+Voor text shadow, box shadow en border radius ook de webkit en moz varianten rules schrijven?
+
+
+Heb het document naar eigen inzicht geschreven en hier en daar wat verbeteringen aangebracht, zoals de bullet points.
+
+Met vriendelijke groet,
+André de Groot
