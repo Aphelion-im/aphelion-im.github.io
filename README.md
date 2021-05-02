@@ -1,7 +1,7 @@
 # Aphelion-im.github.io Contents
 Updated: 2-5-2021
 
-## Curriculum
+## Curriculum Free Code Camp
 
 ### Module: Responsive Web Design
 * [Tribute Page](https://amdegroot.nl/cursus/fcc/responsive-web-design/tribute-page/index.html)
