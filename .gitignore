@@ -49,3 +49,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+## NHA Wordpress 
+/cursus/nha/nha-wordpress
