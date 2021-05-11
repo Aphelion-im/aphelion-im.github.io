@@ -1,0 +1,261 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --greyBackground: #eee;
+  --silverBackground: #ddd;
+}
+
+/* Mobile first */
+
+body {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  background-color: var(--greyBackground);
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  padding: 48px 0 0 0;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 32px;
+  font-size: 1.5rem;
+}
+
+#header {
+  background-color: var(--greyBackground);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+#header-img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Navigation */
+#nav-bar {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Form */
+#submit {
+  padding: 4px 8px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: yellow;
+  font-size: 1rem;
+  margin: 16px 0;
+}
+
+/* Hero section */
+#hero {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(80px + 24px) 0 48px 0;
+}
+
+#hero form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  height: 80px;
+}
+
+#hero input[type='email'] {
+  width: 300px;
+  padding: 8px;
+}
+
+#hero #submit {
+  background-color: #f1c40f;
+  border: none;
+  font-size: 700;
+  cursor: pointer;
+}
+
+#hero #submit:hover {
+  background-color: orange;
+}
+
+#features h2 {
+  font-weight: 700;
+  width: 100%;
+}
+
+/* howitworks */
+#howitworks {
+  display: flex;
+  justify-content: center;
+  margin: 48px 0;
+}
+
+/* Font awesome */
+.fa {
+  color: darkorange;
+  display: none;
+  font-family: 'Font Awesome 5 Free';
+  margin-right: 24px;
+  width: 65px;
+}
+
+.fa-3x {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+/* features section */
+#features {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#features div {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#features div div {
+  width: 90%;
+  text-align: center;
+  margin: 16px auto;
+}
+
+#features div div p {
+  width: 100%;
+}
+
+#howitworks {
+  margin: 0 auto;
+}
+
+/* pricing */
+#pricing {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+}
+
+#pricing .card {
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  margin: 16px;
+}
+
+#pricing .card .header {
+  background-color: var(--silverBackground);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px;
+}
+
+#pricing .price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 8px 0 24px 0;
+}
+
+#pricing p {
+  margin: 4px 0 16px 0;
+}
+
+#pricing .selectButton {
+  background-color: #f1c40f;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 4px 0 16px 0;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  transition: background-color 250ms ease;
+}
+
+#pricing .selectButton:hover {
+  background-color: orange;
+}
+
+footer {
+  background-color: var(--silverBackground);
+  width: 100%;
+  padding: 32px 48px;
+  text-align: right;
+  margin: 0 auto;
+}
+
+footer nav a {
+  margin: 0 0 0 8px;
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 16px;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 600px) {
+  .fa {
+    display: flex;
+    justify-content: center;
+  }
+
+  #features div div {
+    width: 80%;
+    margin: 16px 0;
+    text-align: left;
+  }
+
+  #features div {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #pricing {
+    flex-direction: row;
+  }
+
+  #pricing .card {
+    flex: 1;
+  }
+
+  footer {
+    width: 70%;
+  }
+}
