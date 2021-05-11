@@ -6,6 +6,6 @@ Updated: 2-5-2021
 ### Module: Responsive Web Design
 * [Tribute Page](https://amdegroot.nl/cursus/fcc/responsive-web-design/tribute-page/index.html)
 * [Survey Form](https://amdegroot.nl/cursus/fcc/responsive-web-design/survey-form/index.html)
-* [Product Landing Page](https://amdegroot.nl/cursus/fcc/responsive-web-design/xxx/index.html)
+* [Product Landing Page](https://amdegroot.nl/cursus/fcc/responsive-web-design/product-landing-page/index.html)
 * [Technical Documentation Page](https://amdegroot.nl/cursus/fcc/responsive-web-design/xxx/index.html)
 * [Personal Portfolio Webpage](https://amdegroot.nl/cursus/fcc/responsive-web-design/xxx/index.html)
