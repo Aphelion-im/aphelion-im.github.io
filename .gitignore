@@ -54,4 +54,4 @@ $RECYCLE.BIN/
 /cursus/nha/nha-wordpress
 
 ## VS Code settings
-/.vscode
+*.vscode
